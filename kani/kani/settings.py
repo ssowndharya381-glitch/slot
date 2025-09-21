@@ -11,7 +11,11 @@ https://docs.djangoproject.com/en/5.2/ref/settings/
 """
 
 from pathlib import Path
+<<<<<<< HEAD
 import os
+=======
+
+>>>>>>> 49ceb073172f82b52c226f4c142d07c85afa1962
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -20,12 +24,20 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/5.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
+<<<<<<< HEAD
 SECRET_KEY = 'django-insecure-u=k6$9yp#fjg_yk1eyuj1ey$c&g4(@-%%nd8-*856c-gn^%!03'
+=======
+SECRET_KEY = 'django-insecure-g09x2qs*+yzj*sk71--zsywp*z1m4s&&f=@m0cvwuk^8q9p5)r'
+>>>>>>> 49ceb073172f82b52c226f4c142d07c85afa1962
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
+<<<<<<< HEAD
 ALLOWED_HOSTS = ['*']
+=======
+ALLOWED_HOSTS = []
+>>>>>>> 49ceb073172f82b52c226f4c142d07c85afa1962
 
 
 # Application definition
@@ -36,7 +48,11 @@ INSTALLED_APPS = [
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
+<<<<<<< HEAD
     'django.contrib.staticfiles','slotapp'
+=======
+    'django.contrib.staticfiles',
+>>>>>>> 49ceb073172f82b52c226f4c142d07c85afa1962
 ]
 
 MIDDLEWARE = [
@@ -58,7 +74,10 @@ TEMPLATES = [
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
+<<<<<<< HEAD
                 'django.template.context_processors.debug',
+=======
+>>>>>>> 49ceb073172f82b52c226f4c142d07c85afa1962
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
@@ -116,9 +135,13 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/5.2/howto/static-files/
 
 STATIC_URL = 'static/'
+<<<<<<< HEAD
 STATICFILES_DIRS=[
     os.path.join(BASE_DIR,'slotapp/static')
 ]
+=======
+
+>>>>>>> 49ceb073172f82b52c226f4c142d07c85afa1962
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field
 
